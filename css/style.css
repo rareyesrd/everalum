@@ -1020,6 +1020,12 @@ a[href*='tel'], a[href*='mailto'] {
 		margin-top: 62px;
 	}
 }
+p.box-border{
+	font-weight: bold;
+}
+p.box-border span{
+	font-weight: lighter;
+}
 .box-border-wrap {
 	border: 1px solid #e5e5e5;
 	overflow: hidden;
@@ -1037,7 +1043,9 @@ a[href*='tel'], a[href*='mailto'] {
 	min-height: 120px;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	border-left: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 	transition: .3s;
